@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    background-image: url(/images/Machine-Learning-AI-Concept.gif);
+    background-size: cover;
+}  
+
+
+
+img.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50px;
+    background-color: #11101d;
+    transition: all 0.5s ease;
+}
+
+.sidebar.active{
+    width: 190px ;
+}
+
+.sidebar .logo{
+    width: 100%;
+    height:auto;
+    align-items:center ;
+    display: flex;
+} 
+
+
+
+.sidebar .logo i{
+     font-size: 36px;
+     color: aliceblue;
+     font-weight: 600;
+    height:41px;
+    width: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.sidebar .logo-name1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px ;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    
+}
+
+.sidebar.active .logo-name1
+{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar .nav-link:hover{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 3px;
+    transition: 0s;
+    opacity: 0s;
+}
+
+.sidebar .nav-link:hover{
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+
+.sidebar .nav-link ul{
+    line-height: 200%;
+    padding-top: 110%;  
+}
+
+.sidebar .nav-link li{
+    list-style: none;
+    position: relative;
+    padding: auto;
+    align-items: center;
+    list-style: none;
+    line-height: 20px;
+}
+
+.sidebar .nav-link li a{
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    transition: all 0.4s ease;
+    border-radius: 10px;
+}
+
+.sidebar .nav-link i:hover{
+    color: black;
+    background-color: rgb(112, 180, 240);  
+}
+
+
+.sidebar .nav-link a i{
+    color: aliceblue;
+    align-content: center;
+   height:40px;
+   width: 40px;
+   text-align: center;
+   line-height: 45px;
+}
+
+.sidebar .link-name{
+      
+    opacity: 0;
+
+}
+
+.sidebar.active .link-name
+{
+    opacity: 1;
+    pointer-events: auto;
+    text-align: center;
+    color: white;
+    font-weight: 600px;
+    font-size: 20px; 
+}
+
+.sidebar .nav-link .floating{
+    display: flex;
+    left: 110px;
+    position: inherit;
+    color: aliceblue;
+    height: 20px;
+    width: 85px;;
+    background-color: rgb(1, 36, 24);
+    transform: translateY(-50%);
+    border-radius: 10px;    
+    text-align: center;
+    transition: 0s;
+    opacity: 0;
+}
+
+.sidebar .nav-link li:hover .floating{
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+
+.sidebar .nav-link .floating p{
+    text-align: center;
+}
+
+.sidebar .nav-link li .image img{
+    height: 30px;
+    width: 30px;
+    display:flex;
+    padding: 0px;
+    object-fit: cover;
+    margin-top: 210px;
+    padding: 0px;
+    border-radius: 10px;
+} 
+
+
+.sidebar.active .nav-link li .image img{
+    margin-top: 115px;
+}
+.sidebar .nav-link li .text pre{
+    font-size: 10px;
+    color: rgb(245, 245, 245);
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+    opacity: 0;
+}
+
+.sidebar.active .nav-link li .text pre{
+    opacity: 1;
+}
+
+.profile-pic img
+{
+    height:200px ;
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+.profile-pic .profile-txt{
+    opacity: 0;
+    color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+
+}
+
+.profile-pic .profile-txt:hover{
+    opacity: 1;
+}
+
+
+.profile-pic{
+    position: absolute;
+    top: 28%;
+    left: 22%;
+    
+   
+}
