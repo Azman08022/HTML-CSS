@@ -7,10 +7,19 @@
 }
 
 body{
-    background-image: url(https://github.com/Azman08022/HTML-CSS/blob/master/images/IMG_20210126_164000.jpg);
     background-size: cover;
 }  
 
+.hero{
+    height: 100%;
+    width:100%;
+    background-image:url(./image_processing20200727-27132-19pgvfp.gif);
+    position: absolute;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 img.stick{
